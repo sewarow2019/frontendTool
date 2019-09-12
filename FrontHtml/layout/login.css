@@ -1,0 +1,28 @@
+a, a.btn, a.btn-primary
+{
+    /* font-size: px; */
+    color: #ffffff;
+}
+
+.login-footer {
+    position: absolute;
+    /* position: fixed; */
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #0746a3;
+    color: #ffffff;
+    width: 100%;
+}
+
+.login-box .card
+{
+    border-color: #cccccc;
+}
+/* 
+.login-box .card:hover
+{
+    border-color : #0746a3;
+    transition: 0.7s;
+} */
+
