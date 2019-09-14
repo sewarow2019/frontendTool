@@ -26,20 +26,21 @@ p a {
     top: 0;
     bottom: 0;
     left: 0;
-    background-color: #0746a3;
+    background-color: #cccccc;
     width: 320px;
-    color: #ffffff;
+    color: #1e1e1e;
+    /* opacity: 0.5; */
 }
 
 .sidebar table 
 {
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 .sidebar .welcome-note
 {
-    background-color: #ffffff;
+    background-color:#39b12a;
     vertical-align: middle;
-    color: #1e1e1e;
+    color: #ffffff;
 }
 
 .content-area
@@ -50,14 +51,14 @@ p a {
 
 .content-area .header
 {
-    background-color: #0746a3;
+    background-color: #446699;
     color: #ffffff;
 }
 
 .profile-img
 {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .pull-left
@@ -73,4 +74,14 @@ p a {
 .clear
 {
     clear: both;
+}
+
+ul.icon-nav , ul.icon-nav li{
+    float: left;
+}
+
+ul.icon-nav li a{
+    padding: 5px;
+    margin: 5px;
+    color: #1e1e1e;
 }
